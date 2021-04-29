@@ -1,0 +1,20 @@
+{
+  "name": "autoUpdateWafIpSetOfCloudFront",
+  "version": "1.0.0",
+  "description": "Auto update AWS WAF's IP Set of CloudFront",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "msysh",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-wafv2": "^3.13.1",
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
